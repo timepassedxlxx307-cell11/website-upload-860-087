@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>静态影视库搜索｜2000部影片快速检索</title>
+  <meta name="description" content="静态影视库搜索页支持按片名、类型、地区、标签和年份检索全部2000条影片。" />
+  <meta name="keywords" content="搜索,影视检索,静态影视库,影片查询,分类搜索" />
+  <link rel="stylesheet" href="assets/source.css" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<header class="site-header">
+  <div class="wrap nav-wrap">
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="静态影视库"><span>静态影视库</span></a>
+    <nav class="main-nav" data-nav>
+      <a href="index.html">首页</a>
+      <a href="category/index.html">分类</a>
+      <a href="catalog/page-01.html">目录</a>
+      <a href="ranking.html">排行榜</a>
+      <a href="search.html" class="active">搜索</a>
+    </nav>
+    <button class="menu-toggle" data-menu-toggle>菜单</button>
+  </div>
+</header>
+<main>
+  <section class="wrap page-hero compact-hero">
+    <div>
+      <span class="hero-pill">全站检索</span>
+      <h1>静态影视库搜索</h1>
+      <p>搜索全部 2000 条影片，可按名称、类型、地区、年份、标签进行筛选。</p>
+    </div>
+    <form class="search-form" id="global-search-form">
+      <input id="search-input" name="q" type="search" placeholder="输入关键词，例如：日本、悬疑、2024" />
+      <button class="btn btn-primary" type="submit">搜索</button>
+    </form>
+  </section>
+  <section class="wrap section-block">
+    <div class="section-head"><h2>搜索结果</h2><span id="search-stats">等待输入关键词</span></div>
+    <div class="grid-4" id="search-results"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div><h3>静态影视库</h3><p>支持全站 2000 条影片检索</p></div>
+    <div><a href="index.html">首页</a><a href="catalog/page-01.html">目录</a><a href="ranking.html">排行</a></div>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
